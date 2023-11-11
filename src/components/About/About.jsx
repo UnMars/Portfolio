@@ -16,30 +16,27 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Front End Developer</h3>
+              <h3>Script Developer</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+                I have experience developing scripts and bots for various usages to automate tasks
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
-              <h3>Back End Developer</h3>
+              <h3>Web Developer</h3>
               <p>
-                I have experience developing fast and optimised backend systems
-                and APIs
+                I have experience developing responsive websites communicating with databases
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
+            <img src={getImageUrl("about/uiIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
+              <h3>AI Enjoyer</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+                I'm very interested in AI domains. Currently reading <a className={styles.aboutBookCitation} href="https://aima.cs.berkeley.edu/">Artificial Intelligence - A Modern Approach by Russell Stuart and Peter Norvig</a>
               </p>
             </div>
           </li>

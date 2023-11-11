@@ -1,26 +1,18 @@
 [
     {
-      "title": "Project A",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Prolific Joiner",
+      "imageSrc": "projects/prolific.png",
+      "description": "This is a project to enroll automatically in surveys on Prolific.",
+      "skills": ["Python"],
+      "demo": "https://github.com/UnMars/Prolific-Joiner",
+      "source": "https://github.com/UnMars/Prolific-Joiner"
     },
     {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Cookie Clicker",
+      "imageSrc": "projects/cookieclicker.png",
+      "description": "This project made learn React and NextJS with a time limit of 3 weeks with a friend.",
+      "skills": ["Javascript", "React", "NextJS"],
+      "demo": "https://cookie-clicker-theta.vercel.app/",
+      "source": "https://cookie-clicker-theta.vercel.app/"
     }
   ]

@@ -47,3 +47,19 @@ export const Experience = () => {
     </section>
   );
 };
+
+/*
+Maybe future experience ? (Who knows)
+,
+    {
+      "role": "Junior Entreprise",
+      "organisation": "NSIGMA",
+      "startDate": "Feb, 2024",
+      "endDate": "Present",
+      "experiences": [
+        "Technical advisor to help clients in thinking and coding their projects",
+        "Mostly web and mobiles app projects"
+      ],
+      "imageSrc": "history/nsigma.png"
+    }
+*/
