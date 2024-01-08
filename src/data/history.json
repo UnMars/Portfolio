@@ -14,5 +14,13 @@
       "endDate": "Present",
       "experiences": ["Studied Data Structures, Algorithms, Networks"],
       "imageSrc": "history/ensimag.png"
+    },
+    {
+      "role": "Technical Consultant",
+      "organisation": "Nsigma",
+      "startDate": "Nov, 2023",
+      "endDate": "Present",
+      "experiences": ["Helped clients into their digital project", "Created personnalized solutions for clients", "Data Structure, DBs..."],
+      "imageSrc": "history/nsigma.png"
     }
   ]
