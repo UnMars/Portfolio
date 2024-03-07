@@ -18,5 +18,9 @@
     {
       "title": "Javascript",
       "imageSrc": "skills/javascript.png"
+    },
+    {
+      "title": "C",
+      "imageSrc": "skills/c.png"
     }
   ]
