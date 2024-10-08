@@ -1,0 +1,20 @@
+[
+    {
+        "title": "H7CTF International 2024",
+        "imageSrc": "ctfs/h7tex.png",
+        "ctfSrc": "https://ctf.h7tex.com/",
+        "ctfTimeLink": "https://ctftime.org/event/2491/",
+        "certificate": "assets/ctfs/h7tex-cert.png",
+        "score": "195",
+        "totalTeams": "527"
+    },
+    {
+        "title": "PatriotCTF 2024",
+        "imageSrc": "ctfs/pctf.png",
+        "ctfSrc": "https://competitivecyber.club/patriotctf/",
+        "ctfTimeLink": "https://ctftime.org/event/2426/",
+        "certificate": "assets/ctfs/pctf-cert.png",
+        "score": "81",
+        "totalTeams": "1360"
+    }
+]

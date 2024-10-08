@@ -1,0 +1,44 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.subtitle {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-left: 15px;
+}
+
+.ctfs {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+    background-color: var(--color-background-secondary);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 830px) {
+    .ctfs {
+      width: 100%;
+      flex-direction: row;
+      justify-content: center;
+      grid-template-columns: repeat(1, minmax(300px, 1fr));
+    }
+  }

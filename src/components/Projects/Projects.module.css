@@ -26,4 +26,11 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
+@media screen and (max-width: 830px) {
+  .projects {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+  }
+}
