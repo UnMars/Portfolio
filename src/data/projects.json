@@ -1,18 +1,58 @@
 [
-    {
-      "title": "Prolific Joiner",
-      "imageSrc": "projects/prolific.png",
-      "description": "This is a project to enroll automatically in surveys on Prolific.",
-      "skills": ["Python"],
-      "demo": "https://github.com/UnMars/Prolific-Joiner",
-      "source": "https://github.com/UnMars/Prolific-Joiner"
-    },
-    {
-      "title": "Cookie Clicker",
-      "imageSrc": "projects/cookieclicker.png",
-      "description": "This project made learn React and NextJS with a time limit of 3 weeks with a friend.",
-      "skills": ["Javascript", "React", "NextJS"],
-      "demo": "https://cookie-clicker-theta.vercel.app/",
-      "source": "https://cookie-clicker-theta.vercel.app/"
-    }
-  ]
+  {
+    "title": "GUI in C",
+    "imageSrc": "skills/c.png",
+    "description": "End year project for my first year in CS at ENSIMAG.",
+    "skills": [
+      "C",
+      "Polymorphism"
+    ],
+    "demo": "",
+    "source": ""
+  },
+  {
+    "title": "Prolific Joiner",
+    "imageSrc": "projects/prolific.png",
+    "description": "This is a project to enroll automatically in surveys on Prolific.",
+    "skills": [
+      "Python"
+    ],
+    "demo": "",
+    "source": "https://github.com/UnMars/Prolific-Joiner"
+  },
+  {
+    "title": "Cookie Clicker",
+    "imageSrc": "projects/cookieclicker.png",
+    "description": "This project made learn React and NextJS with a time limit of 3 weeks with a friend.",
+    "skills": [
+      "Javascript",
+      "React",
+      "NextJS"
+    ],
+    "demo": "https://cookie-clicker-theta.vercel.app/",
+    "source": "https://cookie-clicker-theta.vercel.app/"
+  },
+  {
+    "title": "Mobile App for Nsigma JE",
+    "imageSrc": "projects/nsigma.png",
+    "description": "IOS & Android mobile app to connect students to NSIGMA offers in realtime.",
+    "skills": [
+      "React Native",
+      "TS",
+      "Expo"
+    ],
+    "demo": "",
+    "source": ""
+  },
+  {
+    "title": "RAG Agent for Nsigma JE",
+    "imageSrc": "projects/nsigma.png",
+    "description": "Chatbot using RAG technology to help JE members in their daily tasks.",
+    "skills": [
+      "Python",
+      "LangChain"
+    ],
+    "demo": "",
+    "source": ""
+  }
+]
