@@ -34,9 +34,9 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/uiIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>AI Enjoyer</h3>
+              <h3>CyberSec Enjoyer</h3>
               <p>
-                I'm very interested in AI domains. Currently reading <a className={styles.aboutBookCitation} href="https://aima.cs.berkeley.edu/">Artificial Intelligence - A Modern Approach by Russell Stuart and Peter Norvig</a>
+                I&apos;m interested in cybersecurity domains. In my spare time, I&apos;m also doing various <a className={styles.aboutBookCitation} href="https://en.wikipedia.org/wiki/Capture_the_flag_(cybersecurity)">CTFs</a>  with my friends.
               </p>
             </div>
           </li>
