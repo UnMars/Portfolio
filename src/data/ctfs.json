@@ -16,5 +16,14 @@
         "certificate": "assets/ctfs/pctf-cert.png",
         "score": "81",
         "totalTeams": "1360"
+    },
+    {
+        "title": "GreHack 2024",
+        "imageSrc": "ctfs/grehack.png",
+        "ctfSrc": "https://grehack.fr/ctf/",
+        "ctfTimeLink": "https://ctftime.org/ctf/42/",
+        "certificate": "",
+        "score": "21",
+        "totalTeams": "38"
     }
 ]

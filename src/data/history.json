@@ -1,36 +1,47 @@
 [
-    {
-      "role": "Freelance Developer",
-      "organisation": "Fiverr",
-      "startDate": "Sept, 2019",
-      "endDate": "Present",
-      "experiences": ["Made bots", "Automated boring or repetitive tasks"],
-      "imageSrc": "history/fiverr.png"
-    },
-    {
-      "role": "CS Student",
-      "organisation": "ENSIMAG",
-      "startDate": "Sept, 2023",
-      "endDate": "Present",
-      "experiences": ["Studied CS with Data Structures, Algorithms, Networks..."],
-      "imageSrc": "history/ensimag.png"
-    },
-    {
-      "role": "Technical Consultant",
-      "organisation": "Nsigma",
-      "startDate": "Nov, 2023",
-      "endDate": "Mar, 2024",
-      "experiences": ["Helped clients into their digital project", "Created personnalized solutions for clients", "Data Structure, DBs..."],
-      "imageSrc": "history/nsigma.png"
-    },
-    {
-      "role": "CIO (Chief information officer)",
-      "organisation": "Nsigma",
-      "startDate": "Mar, 2024",
-      "endDate": "Present",
-      "experiences": ["Chief Information Officer at Nsigma JE, ranked among the top 30 JE in France.",
-      "Collaborated with a team to successfully develop and implement an ERP system for NSIGMA.",
-      "Managed NSIGMA's internal informatics structure and website, optimizing processes..."],
-      "imageSrc": "history/nsigma.png"
-    }
-  ]
+  {
+    "role": "Freelance Developer",
+    "organisation": "Fiverr",
+    "startDate": "Sept, 2019",
+    "endDate": "Present",
+    "experiences": [
+      "Made bots",
+      "Automated boring or repetitive tasks"
+    ],
+    "imageSrc": "history/fiverr.png"
+  },
+  {
+    "role": "CS Student",
+    "organisation": "ENSIMAG",
+    "startDate": "Sept, 2023",
+    "endDate": "Present",
+    "experiences": [
+      "Studied CS with Data Structures, Algorithms, OOP, Networks..."
+    ],
+    "imageSrc": "history/ensimag.png"
+  },
+  {
+    "role": "Technical Consultant",
+    "organisation": "Nsigma",
+    "startDate": "Nov, 2023",
+    "endDate": "Mar, 2024",
+    "experiences": [
+      "Helped clients into their digital project",
+      "Created personnalized solutions for clients",
+      "Data Structure, DBs..."
+    ],
+    "imageSrc": "history/nsigma.png"
+  },
+  {
+    "role": "CIO (Chief information officer)",
+    "organisation": "Nsigma",
+    "startDate": "Mar, 2024",
+    "endDate": "Present",
+    "experiences": [
+      "Chief Information Officer at Nsigma JE, ranked among the top 30 JE in France.",
+      " Collaborated with a team to successfully document, develop and implement various internal tools (Mobile App, RAG Agent, ERP...), demonstrating effective teamwork and strong problem-solving skills.",
+      "Managed NSIGMA's internal informatics structure and website, optimizing processes..."
+    ],
+    "imageSrc": "history/nsigma.png"
+  }
+]

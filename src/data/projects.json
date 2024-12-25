@@ -54,5 +54,19 @@
     ],
     "demo": "",
     "source": ""
+  },
+  {
+    "title": "Deca Compiler",
+    "imageSrc": "skills/java.png",
+    "description": "Compiler of Deca (subset of Java) from scratch",
+    "skills": [
+      "Java",
+      "ANTLR",
+      "ASM",
+      "OOP",
+      "SonarQube"
+    ],
+    "demo": "",
+    "source": ""
   }
 ]
