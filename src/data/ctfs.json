@@ -25,5 +25,14 @@
         "certificate": "",
         "score": "21",
         "totalTeams": "38"
+    },
+    {
+        "title": "TUCTF 2024",
+        "imageSrc": "ctfs/tuctf.png",
+        "ctfSrc": "https://ctfd.tuctf.com/",
+        "ctfTimeLink": "https://ctftime.org/event/2584/",
+        "certificate": "",
+        "score": "19",
+        "totalTeams": "485"
     }
 ]
