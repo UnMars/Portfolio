@@ -1,0 +1,38 @@
+.ctfs-body {
+	margin-bottom: 10px;
+}
+
+.ctf {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 32px;
+	width: 100%;
+}
+
+.ctf-info {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex: 1;
+}
+
+.ctf-title {
+	font-size: 17px;
+	font-weight: 700;
+	color: var(--secondary-color);
+	margin-bottom: 2px;
+}
+
+.ctf-subtitle {
+	font-size: 15px;
+	color: var(--secondary-color);
+	margin-bottom: 0;
+}
+
+.ctf-rank {
+	font-size: 14px;
+	color: var(--tertiary-color);
+	text-align: right;
+	min-width: 120px;
+}
