@@ -4,7 +4,7 @@ const INFO = {
 		name: "Guillaume Roboam",
 		email: "guillaume_roboam@hotmail.fr",
 		logo: "../avatar.png",
-		resume_url: "/Guillaume_ROBOAM_resume.pdf",
+		resume_url: "/Resume_Guillaume_ROBOAM.pdf",
 	},
 
 	socials: {
