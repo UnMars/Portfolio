@@ -22,7 +22,9 @@ import "./app.css";
 function App() {
 	useEffect(() => {
 		if (TRACKING_ID !== "") {
-			ReactGA.initialize(TRACKING_ID);
+			setTimeout(() => {
+				ReactGA.initialize(TRACKING_ID);
+			}, 0);
 		}
 	}, []);
 
