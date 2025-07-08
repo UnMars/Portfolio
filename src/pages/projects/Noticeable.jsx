@@ -50,7 +50,7 @@ const Noticeable = () => {
 					<div style={{ margin: "24px 0" }}>
 						<b>Tech stack:</b>{" "}
 						<Highlight
-							text="Python, LangGraph, Qdrant (RAG pipeline), Docker, AWS (upcoming)"
+							text="Python, LangGraph, Qdrant (RAG pipeline), Docker, AWS"
 							query={highlight}
 						/>
 					</div>

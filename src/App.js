@@ -45,7 +45,7 @@ function App() {
 					/>
 					<Route path="/projects/eosya" element={<Eosya />} />
 					<Route
-						path="/projects/Noticeable"
+						path="/projects/noticeable"
 						element={<Noticeable />}
 					/>
 					<Route

@@ -37,7 +37,7 @@ const Eosya = () => {
 				<AnimatePresence mode="wait" initial={false}>
 					<motion.div
 						className="projects-container"
-						key="eosya-geospatial-platform"
+						key="eosya"
 						custom={direction}
 						variants={slideVariants}
 						initial="enter"

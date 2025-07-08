@@ -13,8 +13,8 @@ import "./styles/projects.css";
 
 const projectRoutes = {
 	"Prolific-Joiner": "/projects/prolific-joiner",
-	Eosya: "/projects/eosya-geospatial-platform",
-	Noticeable: "/projects/Noticeable",
+	Eosya: "/projects/eosya",
+	Noticeable: "/projects/noticeable",
 	"Nsigma Mobile App": "/projects/nsigma-mobile-app",
 	"Nsigma Legal Documents RAG": "/projects/nsigma-legal-documents-rag",
 	"Java Deca Compiler": "/projects/java-deca-compiler",
@@ -185,6 +185,7 @@ const Projects = () => {
 											textDecoration: "none",
 											color: "inherit",
 										}}
+										onClick={() => window.scrollTo(0, 0)}
 									>
 										<AnimatedCard>
 											{project.image && (
