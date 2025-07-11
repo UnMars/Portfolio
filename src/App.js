@@ -2,6 +2,8 @@ import { useEffect, Suspense, lazy } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import ReactGA from "react-ga4";
 import { AnimatePresence } from "framer-motion";
+import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from "@vercel/analytics/react";
 
 import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
@@ -21,8 +23,6 @@ const JavaDecaCompiler = lazy(() =>
 	import("./pages/projects/JavaDecaCompiler")
 );
 const X86OSConception = lazy(() => import("./pages/projects/X86OSConception"));
-
-import { SpeedInsights } from '@vercel/speed-insights/react';
 
 function App() {
 	useEffect(() => {
@@ -74,6 +74,7 @@ function App() {
 				</Suspense>
 			</AnimatePresence>
 			<SpeedInsights />
+			<Analytics />
 		</div>
 	);
 }
