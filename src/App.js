@@ -22,6 +22,8 @@ const JavaDecaCompiler = lazy(() =>
 );
 const X86OSConception = lazy(() => import("./pages/projects/X86OSConception"));
 
+import { SpeedInsights } from '@vercel/speed-insights/react';
+
 function App() {
 	useEffect(() => {
 		if (TRACKING_ID !== "") {
@@ -71,6 +73,7 @@ function App() {
 					</Routes>
 				</Suspense>
 			</AnimatePresence>
+			<SpeedInsights />
 		</div>
 	);
 }
