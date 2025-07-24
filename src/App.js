@@ -38,7 +38,7 @@ function App() {
 	return (
 		<div className="App">
 			<AnimatePresence mode="wait" initial={false}>
-				<Suspense fallback={<div>Chargement…</div>}>
+				<Suspense fallback={<div>Loading...</div>}>
 					<Routes location={location} key={location.pathname}>
 						<Route path="/" element={<Homepage />} />
 						<Route path="/about" element={<About />} />
