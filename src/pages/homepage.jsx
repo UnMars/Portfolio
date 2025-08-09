@@ -226,6 +226,21 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
+							<div
+								className="resume-hint marker-highlight"
+								role="note"
+								aria-label="Resume link"
+							>
+								<span
+									className="resume-hint-emoji"
+									aria-hidden="true"
+								>
+									👀
+								</span>
+								<span className="resume-hint-text">
+									Resume here
+								</span>
+							</div>
 						</div>
 
 						<div className="homepage-projects">

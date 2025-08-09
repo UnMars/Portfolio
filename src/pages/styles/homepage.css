@@ -80,6 +80,57 @@
 	color: var(--primary-color);
 }
 
+/* Resume subtle hint next to the resume icon */
+.resume-hint {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	margin-left: 10px;
+	color: var(--primary-color);
+	/* marker-highlight provides the yellow brush background */
+	padding: 0;
+	border-radius: 0;
+	box-shadow: none;
+	font-size: 15px;
+	line-height: 1;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.resume-hint-emoji {
+	display: inline-block;
+	transform-origin: 50% 50%;
+	will-change: transform;
+	transform: translateZ(0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	animation: resume-peek 2.8s ease-in-out infinite;
+}
+
+.resume-hint-text {
+	font-weight: 700;
+	letter-spacing: 0.25px;
+}
+
+.resume-hint-arrow {
+	font-size: 14px;
+	opacity: 0.9;
+}
+
+@keyframes resume-peek {
+	0%,
+	60%,
+	100% {
+		transform: scale(1);
+	}
+	15% {
+		transform: scale(1.08);
+	}
+	30% {
+		transform: scale(1.03);
+	}
+}
+
 .homepage-after-title {
 	display: flex;
 	justify-content: center;
@@ -312,4 +363,11 @@
 
 .wave-hand-animate {
 	animation: wave-animation 1.4s 1;
+}
+
+/* Accessibility: respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+	.resume-hint-emoji {
+		animation: none;
+	}
 }
