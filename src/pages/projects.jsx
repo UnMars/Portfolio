@@ -19,6 +19,7 @@ const projectRoutes = {
 	"Nsigma Legal Documents RAG": "/projects/nsigma-legal-documents-rag",
 	"Java Deca Compiler": "/projects/java-deca-compiler",
 	"x86 OS Conception": "/projects/x86-os-conception",
+	"Bloom Filter": "/projects/bloom-filter",
 };
 
 function splitMatches(projects, query) {

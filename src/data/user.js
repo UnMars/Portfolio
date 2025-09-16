@@ -38,6 +38,18 @@ const INFO = {
 
 	projects: [
 		{
+			title: "Bloom Filter",
+			description:
+				"Interactive demo to learn and explain Bloom Filters: compare with Python list, visualize hash bits, and tune parameters. Built to learn-by-doing.",
+			tech: [
+				{ icon: "PythonOriginal", label: "Python" },
+			],
+			linkText: "Open Demo",
+			link: "/projects/bloom-filter",
+			type: "school",
+			date: "2025",
+		},
+		{
 			title: "Prolific-Joiner",
 			description:
 				"Open-source bot to automate the detection and joining of paid studies on Prolific.co. Features include automatic authentication, ReCaptcha bypass, and 24/7 operation. Used by a small community to maximize study opportunities.",

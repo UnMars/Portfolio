@@ -19,6 +19,15 @@
 		<!-- DNS prefetch for external resources -->
 		<link rel="dns-prefetch" href="//fonts.googleapis.com">
 		<link rel="dns-prefetch" href="//fonts.gstatic.com">
+
+		<!-- MathJax for LaTeX rendering -->
+		<script>
+			window.MathJax = {
+				tex: { inlineMath: [['\\(', '\\)'], ['$', '$']], displayMath: [['\\[', '\\]'], ['$$', '$$']] },
+				svg: { fontCache: 'global' }
+			};
+		</script>
+		<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 	</head>
 	<body>
 		<noscript>You need to enable JavaScript to run this app.</noscript>

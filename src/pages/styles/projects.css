@@ -28,6 +28,13 @@ html {
 	padding-top: 120px;
 }
 
+@media (max-width: 800px) {
+	/* Avoid overlaying content on small screens */
+	.projects-logo-container {
+		display: none;
+	}
+}
+
 @media (max-width: 600px) {
 	.projects-container {
 		padding-top: 60px;
@@ -79,5 +86,49 @@ html {
 	.project-toc {
 		padding: 12px 8px;
 		font-size: 0.98em;
+	}
+}
+
+/* GitHub link button */
+.github-link {
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
+	padding: 10px 14px;
+	border-radius: 10px;
+	background: #0d1117;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 600;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+	border: 1px solid rgba(240, 246, 252, 0.1);
+	transition: transform 0.15s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.github-link:hover {
+	transform: translateY(-1px);
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+	background: #161b22;
+}
+
+.github-link:active {
+	transform: translateY(0);
+}
+
+.github-link-icon {
+	width: 18px;
+	height: 18px;
+	fill: currentColor;
+}
+
+@media (max-width: 600px) {
+	.github-link {
+		padding: 8px 12px;
+		font-size: 0.95em;
+		gap: 8px;
+	}
+	.github-link-icon {
+		width: 16px;
+		height: 16px;
 	}
 }

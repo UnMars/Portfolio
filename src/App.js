@@ -13,6 +13,7 @@ const Projects = lazy(() => import("./pages/projects"));
 const Contact = lazy(() => import("./pages/contact"));
 const Notfound = lazy(() => import("./pages/404"));
 const ProlificJoiner = lazy(() => import("./pages/projects/ProlificJoiner"));
+const BloomFilter = lazy(() => import("./pages/projects/BloomFilter"));
 const Eosya = lazy(() => import("./pages/projects/Eosya"));
 const Noticeable = lazy(() => import("./pages/projects/Noticeable"));
 const NsigmaMobileApp = lazy(() => import("./pages/projects/NsigmaMobileApp"));
@@ -48,6 +49,10 @@ function App() {
 						<Route
 							path="/projects/prolific-joiner"
 							element={<ProlificJoiner />}
+						/>
+						<Route
+							path="/projects/bloom-filter"
+							element={<BloomFilter />}
 						/>
 						<Route path="/projects/eosya" element={<Eosya />} />
 						<Route

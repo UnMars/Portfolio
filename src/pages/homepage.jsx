@@ -252,7 +252,7 @@ const Homepage = () => {
 							<AllProjects projects={professionalProjects} />
 							<h2 style={{ margin: "32px 0 8px 0" }}>
 								<span className="marker-highlight">
-									Academic Projects
+									Academic & Other Projects
 								</span>
 							</h2>
 							<AllProjects projects={academicProjects} />
