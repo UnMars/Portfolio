@@ -160,6 +160,13 @@
 	max-width: 600px;
 }
 
+@media (max-width: 800px) {
+	/* Avoid overlaying content on small screens */
+	.homepage-logo-container {
+		display: none;
+	}
+}
+
 @media (max-width: 1024px) {
 	.homepage-first-area {
 		flex-direction: column;

@@ -69,6 +69,13 @@
 	display: none;
 }
 
+@media (max-width: 800px) {
+	/* Avoid overlaying content on small screens */
+	.about-logo-container {
+		display: none;
+	}
+}
+
 @media (max-width: 1024px) {
 	.about-logo {
 		z-index: 100;

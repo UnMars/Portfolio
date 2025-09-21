@@ -87,8 +87,8 @@ const Contact = () => {
 						</div>
 					</div>
 					<div className="page-footer">
-							<Footer />
-						</div>
+						<Footer />
+					</div>
 				</div>
 			</div>
 		</React.Fragment>
