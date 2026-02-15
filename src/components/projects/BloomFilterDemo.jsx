@@ -20,7 +20,6 @@ const BloomFilterDemo = () => {
 	const [username, setUsername] = useState("");
 	const [results, setResults] = useState(null);
 	const [isSearching, setIsSearching] = useState(false);
-	const [bloomBits, setBloomBits] = useState(Array(64).fill(false));
 	const [showSettings, setShowSettings] = useState(false);
 
 	const [bloomParams, setBloomParams] = useState({
