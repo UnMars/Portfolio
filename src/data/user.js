@@ -21,12 +21,12 @@ const INFO = {
 	},
 
 	about: {
-		title: "I'm Guillaume Roboam, software engineer at Datadog",
+		title: "I'm Guillaume Roboam, I turn ideas into reliable software",
 		description: `
-		<p>I'm a software engineer at <b>Datadog</b>, on the RUM Resolve team. I work on agent interfaces: building, evaluating and monitoring the MCP tools that expose Real User Monitoring to AI agents.</p>
-		<p>Before that, I was the founding engineering intern at an early-stage startup in Panama (LLM agents, RAG, full stack from scratch), and spent 15 months building a geospatial platform on contract (Django, PostgreSQL, Elasticsearch).</p>
-		<p>In 2025 my team won 1st place out of 250+ teams at the Aleo × zSociety hackathon ($100k prize pool) with a zero-knowledge lending protocol: I built the SDKs, the on-chain price oracle and the frontend.</p>
-		<p>Engineering degree from <b>Ensimag</b> (Grenoble INP), exchange semester at <b>KTH</b>. I'm interested in distributed systems and backend engineering, and I also build side projects, mostly tools I end up needing myself.</p>
+		<p>I'm Guillaume Roboam, a software engineer at <b>Datadog</b> and an engineer who loves building software that lasts. I spend most of my time designing backend services, refining system architecture and automating everything that can be automated.</p>
+		<p>My journey has taken me through early-stage startups, consulting missions and research projects. Along the way I've learned to own the full development cycle: from the first line of code to production deployment and continuous improvement.</p>
+		<p>I thrive in collaborative teams, enjoy deep system-design discussions and keep a strong DevOps mindset. My favourite toolbox includes Python, Go, TypeScript, Docker, PostgreSQL and the occasional LLM experiment.</p>
+		<p>Today I work on the RUM Resolve team, building the MCP tools that expose Real User Monitoring to AI agents. Want to talk tech, backend or system design? <a href="https://www.linkedin.com/in/guillaume-roboam/" target="_blank" rel="noreferrer" style="color:#666;">Let's&nbsp;talk</a>.</p>
 		`,
 	},
 
