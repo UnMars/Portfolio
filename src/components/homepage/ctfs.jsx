@@ -14,10 +14,10 @@ const Ctfs = () => {
 						<div className="ctf">
 							<div className="ctf-info">
 								<div className="ctf-title">
-									Aleo National Web3 Hackathon
+									Aleo × zSociety Web3 Hackathon
 								</div>
 								<div className="ctf-subtitle">
-									Winner — $100,000 prize
+									1st place / 250+ teams ($100k prize pool)
 								</div>
 							</div>
 							<div className="ctf-rank">2025</div>
