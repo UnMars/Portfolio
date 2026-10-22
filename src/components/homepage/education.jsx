@@ -22,8 +22,7 @@ const Education = () => {
 									KTH Royal Institute of Technology
 								</div>
 								<div className="education-subtitle">
-									Exchange semester in Computer Science at
-									Sweden's best CS engineering school
+									Exchange semester, Computer Science
 								</div>
 							</div>
 							<div className="education-duration">
@@ -39,8 +38,7 @@ const Education = () => {
 							<div className="education-info">
 								<div className="education-title">ENSIMAG</div>
 								<div className="education-subtitle">
-									Computer Science at France's best CS
-									engineering school
+									Engineering degree (Master's), Computer Science
 								</div>
 							</div>
 							<div className="education-duration">

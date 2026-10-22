@@ -43,7 +43,7 @@ const Noticeable = () => {
 					<div className="project-page-date">2025</div>
 					<div className="subtitle projects-subtitle">
 						<Highlight
-							text="Early-stage startup, soon incubated at Y Combinator (San Francisco). Currently working as a Founding SWE Intern."
+							text="Early-stage startup in Panama City. Founding Software Engineering Intern, May to August 2025."
 							query={highlight}
 						/>
 					</div>
@@ -62,7 +62,7 @@ const Noticeable = () => {
 						}}
 					>
 						<Highlight
-							text="Currently interning – more details coming soon!"
+							text="Built the whole stack from scratch: LLM agents (LangGraph), RAG pipeline (Qdrant), Dockerized infrastructure on AWS, 150+ automated tests."
 							query={highlight}
 						/>
 					</div>

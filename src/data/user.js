@@ -15,18 +15,18 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Aspirant Software Engineer, results-driven tech enthusiast", //Full-stack & backend developer, system design enthusiast, and tech team leader.",
+		title: "Software Engineer at Datadog, backend & AI",
 		description:
-			"I'm a <strong>results-driven</strong> software engineer who <i>makes a real impact</i> in every project I join. I thrive on building robust, scalable solutions and love <b>tackling complex technical challenges</b>. My experience spans <b>startups</b>, <b>consulting</b>, and <b>academic projects</b>, always with a passion for <i>collaboration</i>, <b>code quality</b>, and <i>continuous learning</i>. <b>Let's build the future together.</b>",
+			"I'm a software engineer at <b>Datadog</b>, on the RUM Resolve team, where I build and evaluate the <b>MCP tools</b> that expose Real User Monitoring to AI agents. Before that I built products from scratch in <b>startups</b> and on contract, and won 1st place at the <b>Aleo × zSociety hackathon</b>. I like distributed systems, backend engineering and tools that people actually use.",
 	},
 
 	about: {
 		title: "I'm Guillaume Roboam, I turn ideas into reliable software",
 		description: `
-		<p>I'm Guillaume Roboam, a computer science student at <b>ENSIMAG</b> and an engineer who loves building software that lasts. I spend most of my time designing backend services, refining system architecture and automating everything that can be automated.</p>
+		<p>I'm Guillaume Roboam, a software engineer at <b>Datadog</b> and an engineer who loves building software that lasts. I spend most of my time designing backend services, refining system architecture and automating everything that can be automated.</p>
 		<p>My journey has taken me through early-stage startups, consulting missions and research projects. Along the way I've learned to own the full development cycle: from the first line of code to production deployment and continuous improvement.</p>
-		<p>I thrive in collaborative teams, enjoy deep system-design discussions and keep a strong DevOps mindset. My favourite toolbox includes Python, Java, TypeScript, Docker, PostgreSQL and the occasional LLM experiment.</p>
-		<p>I'm now looking for a new challenge in a large tech company where I can learn from world-class engineers and contribute to products that matter. If that sounds like a good match, <a href="https://www.linkedin.com/in/guillaume-roboam/" target="_blank" rel="noreferrer" style="color:#666;">let's&nbsp;talk</a>.</p>
+		<p>I thrive in collaborative teams, enjoy deep system-design discussions and keep a strong DevOps mindset. My favourite toolbox includes Python, Go, TypeScript, Docker, PostgreSQL and the occasional LLM experiment.</p>
+		<p>Today I work on the RUM Resolve team, building the MCP tools that expose Real User Monitoring to AI agents. Want to talk tech, backend or system design? <a href="https://www.linkedin.com/in/guillaume-roboam/" target="_blank" rel="noreferrer" style="color:#666;">Let's&nbsp;talk</a>.</p>
 		`,
 	},
 
